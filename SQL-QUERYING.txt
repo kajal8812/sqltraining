@@ -1,0 +1,9 @@
+// to query the data:select * from t1;
+select name from t1;
+select sno from t1;
+select distinct designation from t1;
+select sno,name from t1 where designation LIKE 'MANAGER';
+SELECT * FROM T1 WHERE DESIGNATION LIKE 'BUSINESS%';
+
+DELETE FROM T1 WHERE SNO=1; 
+UPDATE T1 SET NAME ='BLADE' WHERE SNO=2;

@@ -1,0 +1,10 @@
+//to create database
+syntax: create database d1;
+
+//to create table 
+syntax: create table t1(sno int,name varchar(10),designation varchar(10))
+
+//insert data into t1
+syntax: insert into t1(sno,name,designation) values(1,'allen','manager')
+insert into t1(sno,name,designation) values(2,'stokes','business analyst')
+insert into t1(sno,name,designation) values(3,'ward','manager')
